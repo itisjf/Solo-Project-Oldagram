@@ -1,0 +1,89 @@
+/* ---- GENERIC CSS SETTINGS ---- */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+/* ---- BODY ---- */
+body {
+    font-family: "Source Sans 3", sans-serif;
+    width: 375px;
+    margin: 0 auto;
+    border: 1px solid #C6C6C6;
+}
+
+/* ---- HEADER ---- */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-bottom: 1px solid #C6C6C6;
+    
+    padding: 16px;
+}
+
+.oldagram-logo {
+    width: 125px;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+/* ---- POST HEADER ---- */
+.username {
+    display: block;
+}
+
+.post-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    padding: 10px;
+}
+
+.post-header p {
+    margin: 0 0 0 7px;
+}
+
+/* ---- POST ---- */
+.post {
+    width: 100%;
+}
+
+/* ---- POST METADATA ---- */
+.post-metadata {
+    padding: 20px 10px 0 0;
+}
+
+.post-interactions {
+    margin: 0 0 12px 10px;
+}
+
+.post-control {
+    width: 23px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.post-control:hover {
+    opacity: 0.5;
+}
+
+.likes-and-post-title {
+    margin-left: 13px;
+}
